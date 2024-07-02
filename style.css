@@ -1,17 +1,3 @@
-/* Navbar */
-
-.navbar{
-    padding: 2rem;
-    background-color: f5f6f7;
-}
-
-.navbar-collapse{
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-
 /* Globales */
 section{
     display: flex;
@@ -22,6 +8,31 @@ section{
 
 h1{
     font-size: 2.5rem;
+}
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32 ;
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Roboto', cursive;
+}
+
+.seccion-texto{
+    font-size: 1.2rem;
+}
+/* Navbar */
+
+.navbar{
+    padding: 2rem;
+    background-color: f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -54,7 +65,19 @@ h1{
     margin: 20px;
 }
 
+/* sobre mi */
 
+
+.sobre-mi{
+    height: 200px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+
+}
 /* Diseño responsivo */
 @media screen and (max-width: 767px) {
     .navbar-brand{
