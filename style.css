@@ -10,6 +10,8 @@
     justify-content: space-between;
 }
 
+
+
 /* Globales */
 section{
     display: flex;
@@ -58,10 +60,12 @@ h1{
     .navbar-brand{
         display: none;
     }
+    
 }
 
 @media screen and (min-width: 700px) {
     .hero-inferior-img{
         max-width: 600px;
     }
+   
 }
