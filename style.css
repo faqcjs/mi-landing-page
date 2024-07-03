@@ -200,6 +200,15 @@ h1{
     margin: 10px;
 }
 
+@media screen and (max-width: 400px) {
+    .overlay p{
+        font-size: 20px;
+    }
+    .overlay i{
+        font-size: 40px;
+    }
+}
+
 /* Diseño responsivo */
 @media screen and (max-width: 767px) {
     .navbar-brand{
@@ -214,3 +223,4 @@ h1{
     }
    
 }
+
